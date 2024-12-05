@@ -35,7 +35,6 @@ main {
   display: flex;
 }
 .scroll-articles {
-  margin: none;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;

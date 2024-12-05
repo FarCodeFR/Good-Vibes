@@ -8,7 +8,7 @@ function Articles() {
         <figure className="articles-figure">
           <img src="src/assets/images/favicon.png" alt="" />
         </figure>
-        <article>
+        <article className="articles-articles">
           <h3 className="articles-hashtag">#Société </h3>
           <h4 className="articles-title">
             Des chercheurs suisses redonnent espoir à des blessés à la moelle
