@@ -8,12 +8,14 @@ function Accueil() {
       <main>
         <section className="home-articles">
           <MainArticle />
-          <Articles />
-          <Articles />
-          <Articles />
-          <Articles />
-          <Articles />
-          <Articles />
+          <div className="scroll-articles">
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+          </div>
         </section>
       </main>
     </>

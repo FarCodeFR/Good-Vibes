@@ -1,20 +1,15 @@
 .mainArticle {
   display: flex;
-  background-color: blue;
+  background-color: #ffff;
   flex-direction: column;
-  max-height: 739px;
-  max-width: 781px;
+  padding: 15px;
+  /* max-height: 739px;
+  max-width: 781px; */
 }
 
 .mainArticle__figure {
-  align-items: center;
-  max-height: 444px;
-  max-width: 769px;
-}
-
-.mainArticle__image {
-  width: 100%;
-  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .mainArticle__figcaption {
@@ -28,8 +23,9 @@
 }
 
 .mainArticle__hashtags {
-  font-size: 0.9em;
-  color: #888;
+  font-size: 24px;
+  color: #f8b743;
+  font-family: var(--secondary-font);
 }
 
 .mainArticle__hashtag {
@@ -37,19 +33,23 @@
 }
 
 .mainArticle__title {
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: bold;
-  margin: 10px 0;
+  font-family: var(--secondary-font);
 }
 
 .mainArticle__text {
-  font-size: 1.1em;
+  font-size: 14px;
   line-height: 1.5;
-  margin-bottom: 10px;
+  align-content: center;
+  font-family: var(--third-font);
 }
 
 .mainArticle__link {
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
+  text-align: end;
+  display: block;
+  padding: 16px;
 }

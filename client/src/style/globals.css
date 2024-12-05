@@ -31,9 +31,14 @@ main {
   padding: 2em;
 }
 .home-articles {
-  height: 75vh;
+  height: 60vh;
+  display: flex;
+}
+.scroll-articles {
+  margin: none;
+  display: flex;
+  flex-direction: column;
   overflow-y: scroll;
   scrollbar-color: var(--primary-color) var(--secondary-color);
   scroll-behavior: smooth;
-  border-radius: 8px;
 }
