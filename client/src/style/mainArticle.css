@@ -1,0 +1,55 @@
+.mainArticle {
+  display: flex;
+  background-color: #ffff;
+  flex-direction: column;
+  padding: 15px;
+  /* max-height: 739px;
+  max-width: 781px; */
+}
+
+.mainArticle__figure {
+  display: flex;
+  justify-content: center;
+}
+
+.mainArticle__figcaption {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mainArticle__content {
+  max-width: 600px;
+}
+
+.mainArticle__hashtags {
+  font-size: 24px;
+  color: #f8b743;
+  font-family: var(--secondary-font);
+}
+
+.mainArticle__hashtag {
+  margin-right: 8px;
+}
+
+.mainArticle__title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--secondary-font);
+}
+
+.mainArticle__text {
+  font-size: 14px;
+  line-height: 1.5;
+  align-content: center;
+  font-family: var(--third-font);
+}
+
+.mainArticle__link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: end;
+  display: block;
+  padding: 16px;
+}
