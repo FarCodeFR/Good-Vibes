@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import "./App.css";
-import "./style/globals.css";
 import Header from "./components/Header";
+import "./style/globals.css";
 
 function App() {
   return (
