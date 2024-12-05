@@ -13,7 +13,16 @@ body {
   --primary-font: "Shrikhand", serif;
   --secondary-font: "Squada One", sans-serif;
   --third-font: "Strait", sans-serif;
-  --button-color: #ee92ad;
+  --primary-color: #ffce00;
+  --secondary-color: #ec8dba;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 h1 {

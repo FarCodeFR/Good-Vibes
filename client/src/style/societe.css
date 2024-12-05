@@ -1,0 +1,64 @@
+/* ? Container societe main */
+
+.container-societe-main {
+  padding: 0rem 3rem 3rem 3rem;
+}
+
+/* ? Container societe */
+.container-societe {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 100%;
+}
+
+.trait-societe > hr {
+  border: 5px solid white;
+  width: 65vw;
+}
+
+/* ? Article container */
+
+.articles-societe {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px 30px 20px 0px;
+  gap: 16px;
+  width: 40vw;
+  margin: 24px;
+}
+
+/* ? Article figure  */
+
+.articles-figure-societe {
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+/* ? Articles */
+
+.articles-hashtag-societe {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  color: var(--primary-color);
+}
+
+.articles-title-societe {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+}
+
+.articles-content-societe {
+  font-family: var(--third-font);
+  text-align: justify;
+}
+
+.articles-link-societe {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  text-align: end;
+
+  cursor: pointer;
+}

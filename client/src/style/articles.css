@@ -1,0 +1,36 @@
+.articles-main {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  gap: 16px;
+  width: 40vw;
+  margin: 24px;
+}
+
+img {
+  width: 15vw;
+}
+
+.articles-hashtag {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+.articles-title {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 300;
+}
+.articles-content {
+  font-family: var(--third-font);
+  text-align: justify;
+}
+.articles-link {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  text-align: end;
+}

@@ -1,35 +1,30 @@
-import "../style/societe.css";
+import "../style/globals.css";
+import "../style/articles.css";
 
-function Societe() {
+function Articles() {
   return (
-    <main className="container-societe-main">
-      <section className="container-societe">
-        <h1>Société</h1>
-        <div className="trait-societe">
-          <hr />
-        </div>
-      </section>
-      <section className="articles-societe">
-        <figure className="articles-figure-societe">
+    <>
+      <section className="articles-main">
+        <figure className="articles-figure">
           <img src="src/assets/images/favicon.png" alt="" />
         </figure>
         <article>
-          <h2 className="articles-hashtag-societe">#Société </h2>
-          <h3 className="articles-title-societe">
+          <h3 className="articles-hashtag">#Société </h3>
+          <h4 className="articles-title">
             Des chercheurs suisses redonnent espoir à des blessés à la moelle
             épinière
-          </h3>
-          <p className="articles-content-societe">
+          </h4>
+          <p className="articles-content">
             Un espoir pour certaines personnes atteintes de lésions de la moelle
             épinière : la stimulation profonde de certaines zones du cerveau par
             des électrodes pourrait les aider à marcher plus aisément, selon une
             étude et un témoignage diffusés ce lundi par l’école polytechnique
             fédérale de Lausanne.
           </p>
-          <p className="articles-link-societe">Voir plus</p>
+          <p className="articles-link">Voir plus</p>
         </article>
       </section>
-    </main>
+    </>
   );
 }
-export default Societe;
+export default Articles;
