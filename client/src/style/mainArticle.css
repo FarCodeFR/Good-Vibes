@@ -1,0 +1,55 @@
+.mainArticle {
+  display: flex;
+  background-color: blue;
+  flex-direction: column;
+  max-height: 739px;
+  max-width: 781px;
+}
+
+.mainArticle__figure {
+  align-items: center;
+  max-height: 444px;
+  max-width: 769px;
+}
+
+.mainArticle__image {
+  width: 100%;
+  height: auto;
+}
+
+.mainArticle__figcaption {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mainArticle__content {
+  max-width: 600px;
+}
+
+.mainArticle__hashtags {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.mainArticle__hashtag {
+  margin-right: 8px;
+}
+
+.mainArticle__title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.mainArticle__text {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.mainArticle__link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
