@@ -1,4 +1,5 @@
 import Articles from "../components/Articles";
+import MainArticle from "../components/MainArticle.tsx";
 import "../style/globals.css";
 
 function Accueil() {
@@ -6,12 +7,15 @@ function Accueil() {
     <>
       <main>
         <section className="home-articles">
-          <Articles />
-          <Articles />
-          <Articles />
-          <Articles />
-          <Articles />
-          <Articles />
+          <MainArticle />
+          <div className="scroll-articles">
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+          </div>
         </section>
       </main>
     </>
