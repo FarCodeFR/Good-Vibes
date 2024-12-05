@@ -5,6 +5,8 @@
   --primary-font: "Shrikhand", serif;
   --secondary-font: "Squada One", sans-serif;
   --third-font: "Strait", sans-serif;
+  --primary-color: #ffce00;
+  --secondary-color: #ec8dba;
 }
 
 * {
@@ -27,4 +29,11 @@ main {
   border: 8px solid black;
   margin: 3em;
   padding: 2em;
+}
+.home-articles {
+  height: 75vh;
+  overflow-y: scroll;
+  scrollbar-color: var(--primary-color) var(--secondary-color);
+  scroll-behavior: smooth;
+  border-radius: 8px;
 }
