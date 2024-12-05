@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&family=Squada+One&family=Strait&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 :root {
   --background-color: linear-gradient(90deg, #ffce00 0%, #ec8dba 100%);
   --primary-font: "Shrikhand", serif;
@@ -22,6 +30,7 @@ h1 {
   font-size: 5rem;
   font-weight: 400;
   color: white;
+  margin: 0;
 }
 
 main {
@@ -30,15 +39,9 @@ main {
   margin: 3em;
   padding: 2em;
 }
-.home-articles {
-  height: 60vh;
-  display: flex;
-}
-.scroll-articles {
-  margin: none;
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll;
-  scrollbar-color: var(--primary-color) var(--secondary-color);
-  scroll-behavior: smooth;
+
+@media screen and (max-width: 390px) {
+  h1 {
+    /* font-size: 2rem; */
+  }
 }
