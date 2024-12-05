@@ -23,7 +23,10 @@
   gap: 5rem;
 }
 
-.link-container-page > ul > a {
-  list-style: none;
+.link-container-page a {
   text-decoration: none;
+}
+
+.link-container-page li {
+  list-style: none;
 }
