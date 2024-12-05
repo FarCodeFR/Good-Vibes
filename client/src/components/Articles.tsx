@@ -6,7 +6,11 @@ function Articles() {
     <>
       <section className="articles-main">
         <figure className="articles-figure">
-          <img src="src/assets/images/favicon.png" alt="" />
+          <img
+            className="image_article"
+            src="src/assets/images/favicon.png"
+            alt=""
+          />
         </figure>
         <article className="articles-articles">
           <h3 className="articles-hashtag">#Société </h3>

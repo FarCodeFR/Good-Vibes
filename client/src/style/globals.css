@@ -27,12 +27,18 @@ h1 {
 main {
   background: var(--background-color);
   border: 8px solid black;
-  margin: 3em;
+  margin: 2em 3em 3em 3em;
   padding: 2em;
 }
 .home-articles {
   height: 60vh;
   display: flex;
+  justify-content: space-between;
+}
+
+.tiret-accueil {
+  border: 6px solid white;
+  margin: 0;
 }
 .scroll-articles {
   display: flex;
