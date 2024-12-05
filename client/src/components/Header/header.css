@@ -1,0 +1,28 @@
+/* ? Container Nav */
+
+.header-container-link {
+  display: flex;
+  gap: 100px;
+  padding: 20px;
+}
+
+/* ? Image  */
+
+.header-container-link > img {
+  width: 30%;
+  margin: 1% 0% 0% 5%;
+}
+
+/* ? Container link */
+
+.link-container-page {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  gap: 150px;
+}
+
+.link-container-page > a {
+  list-style: none;
+  text-decoration: none;
+}
