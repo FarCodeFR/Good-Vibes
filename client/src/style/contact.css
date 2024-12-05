@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  /* gap: 2em; */
 }
 
 #display-form p {
@@ -14,31 +16,87 @@
 #form-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 2fr);
-  background-color: blue;
-  gap: 1em;
+  grid-template-rows: 10em 2fr 10em;
+  gap: 0 1em;
   width: 60%;
 }
 
 label {
   color: white;
   font-family: var(--primary-font);
+  font-size: 2em;
+}
+
+#first-section,
+#second-section,
+#third-section {
+  display: flex;
+  gap: 0.3em;
+  flex-direction: column;
+  align-self: center;
+
+  & input {
+    padding: 0.5em;
+    border: none;
+    width: 25em;
+  }
+
+  & textarea {
+    border: none;
+  }
 }
 
 #first-section {
   grid-area: 1 / 1 / 2 / 2;
-  display: flex;
-  flex-direction: column;
 }
 
 #second-section {
   grid-area: 1 / 2 / 2 / 3;
-  display: flex;
-  flex-direction: column;
+  justify-self: self-end;
 }
 
 #third-section {
   grid-area: 2 / 1 / 3 / 3;
-  display: flex;
-  flex-direction: column;
+}
+
+textarea {
+  height: 15em;
+}
+
+#submit-form {
+  grid-area: 3 / 1 / 4 / 3;
+  justify-self: center;
+  align-self: center;
+  font-family: var(--primary-font);
+  border: 4px solid black;
+  color: var(--button-color);
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: white;
+  padding: 1em 3em;
+  transition: 0.5s ease-in-out;
+}
+
+#submit-form:hover {
+  background-color: transparent;
+  color: white;
+  padding: 1.5em 3.5em;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1024px) {
+  #form-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 2em;
+  }
+
+  textarea {
+    width: 50em;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  /**/
 }
