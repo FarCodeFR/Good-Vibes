@@ -1,10 +1,21 @@
+import Articles from "../components/Articles";
 import MainArticle from "../components/MainArticle.tsx";
 import "../style/globals.css";
 
 function Accueil() {
   return (
     <>
-      <MainArticle />
+      <main>
+        <section className="home-articles">
+          <MainArticle />
+          <Articles />
+          <Articles />
+          <Articles />
+          <Articles />
+          <Articles />
+          <Articles />
+        </section>
+      </main>
     </>
   );
 }
