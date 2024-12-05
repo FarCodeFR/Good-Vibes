@@ -4,9 +4,16 @@ import "../style/globals.css";
 function Accueil() {
   return (
     <>
-      <Articles />
-      <Articles />
-      <Articles />
+      <main>
+        <section className="home-articles">
+          <Articles />
+          <Articles />
+          <Articles />
+          <Articles />
+          <Articles />
+          <Articles />
+        </section>
+      </main>
     </>
   );
 }
