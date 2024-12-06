@@ -51,15 +51,16 @@ main {
   margin: 0;
 }
 .scroll-articles {
+  margin: none;
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
   scrollbar-color: var(--primary-color) var(--secondary-color);
-  scroll-behavior: smooth;}
+  scroll-behavior: smooth;
+}
 
 @media screen and (max-width: 390px) {
   h1 {
     /* font-size: 2rem; */
   }
-
 }

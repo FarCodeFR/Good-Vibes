@@ -30,10 +30,24 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Accueil />,
+        loader: async () => {
+          const response = await fetch("http://localhost:3310/news");
+          if (!response.ok) {
+            throw new Error("Failed to fetch news");
+          }
+          return response.json();
+        },
       },
       {
         path: "/accueil",
         element: <Accueil />,
+        loader: async () => {
+          const response = await fetch("http://localhost:3310/news");
+          if (!response.ok) {
+            throw new Error("Failed to fetch news");
+          }
+          return response.json();
+        },
       },
       {
         path: "/societe",
