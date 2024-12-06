@@ -16,7 +16,7 @@ function Accueil() {
 
   return (
     <>
-      <main>
+      <main className="home-page">
         <section className="home-articles">
           <MainArticle />
           <hr className="tiret-accueil" />

@@ -1,34 +1,34 @@
-/* ? Container societe main */
+/* ? Container environnement main */
 
-.container-societe-main {
+.container-environnement-main {
   padding: 0rem 3rem 3rem 3rem;
 }
 
 /* ? Container Article */
 
-.container-societe-article {
+.container-environnement-article {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
 }
 
-/* ? Container societe */
-.container-societe {
+/* ? Container environnement */
+.container-environnement {
   display: flex;
   align-items: center;
   gap: 5%;
   width: 100%;
 }
 
-.trait-societe > hr {
+.trait-environnement > hr {
   border: 5px solid white;
-  width: 68vw;
+  width: 49vw;
 }
 
 /* ? Article container */
 
-.articles-societe {
+.articles-environnement {
   display: flex;
   align-items: center;
   background-color: white;
@@ -42,7 +42,7 @@
 
 /* ? Article figure  */
 
-.articles-figure-societe {
+.articles-figure-environnement {
   margin-right: 10px;
   width: 100vw;
   height: 35vh;
@@ -50,7 +50,7 @@
 
 /* ? image */
 
-.image-societe {
+.image-environnement {
   width: 100%;
   height: 90%;
   object-fit: cover;
@@ -59,23 +59,23 @@
 
 /* ? Articles */
 
-.articles-hashtag-societe {
+.articles-hashtag-environnement {
   font-family: var(--secondary-font);
   font-size: 24px;
   color: var(--primary-color);
 }
 
-.articles-title-societe {
+.articles-title-environnement {
   font-family: var(--secondary-font);
   font-size: 24px;
 }
 
-.articles-content-societe {
+.articles-content-environnement {
   font-family: var(--third-font);
   text-align: justify;
 }
 
-.articles-link-societe {
+.articles-link-environnement {
   color: var(--secondary-color);
   font-family: var(--secondary-font);
   font-size: 24px;
@@ -87,46 +87,47 @@
 /* * RESPONSIVE */
 
 @media screen and (max-width: 390px) {
-  .container-societe-main {
+  .container-environnement-main {
     padding: 0rem 1rem 1rem 1rem;
     margin: 5px 30px 20px 30px;
   }
-  .container-societe > h1 {
-    font-size: 30px;
-    padding: 4px;
+  .container-environnement > h1 {
+    font-size: 34px;
+    margin: 0 auto;
+    padding: 2px;
   }
-  .trait-societe > hr {
-    width: 38vw;
+  .trait-environnement > hr {
+    display: none;
     border: 2px solid white;
   }
-  .container-societe-article {
+  .container-environnement-article {
     flex-direction: column;
     gap: 15px;
   }
-  .articles-societe {
+  .articles-environnement {
     width: 100%;
     flex-direction: column;
     margin: 10px 0 auto;
     gap: 0;
     padding: 0px 30px 20px 0px;
   }
-  .articles-hashtag-societe {
+  .articles-hashtag-environnement {
     font-size: 18px;
   }
-  .articles-figure-societe {
+  .articles-figure-environnement {
     width: 100%;
     height: 100%;
   }
-  .articles-title-societe {
+  .articles-title-environnement {
     font-size: 16px;
   }
-  .articles-content-societe {
+  .articles-content-environnement {
     font-size: 12px;
   }
-  .articles-link-societe {
+  .articles-link-environnement {
     font-size: 16px;
   }
-  .articles-societe > article {
+  .articles-environnement > article {
     margin-left: 10%;
     width: 100%;
   }
