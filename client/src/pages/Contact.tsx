@@ -1,8 +1,21 @@
+import type { FormEvent } from "react";
 import "../style/contact.css";
 
 function Contact() {
-  function handleSubmit(event: { preventDefault: () => void }) {
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const message = formData.get("message");
+
+    const data = {
+      name,
+      email,
+      message,
+    };
+
+    console.info(data);
   }
 
   return (
