@@ -21,12 +21,15 @@ function Contact() {
   return (
     <main className="container-central-contact">
       <section id="display-form">
+
+        <h1 className="contact-form">Contacte-nous</h1>
+        <p className="para-form">Des bonnes nouvelles à nous partager?</p>
+        <p className="para-form">Ecris-nous un message</p>
+
         <header id="header-form">
-          <h1>Contacte-nous</h1>
-          <p>-</p>
-          <p>Des bonnes nouvelles à nous partager?</p>
-          <p>Ecris-nous un message :&#41;</p>
-        </header>
+          
+   
+
 
         <form onSubmit={handleSubmit} id="form-container">
           <section id="first-section">

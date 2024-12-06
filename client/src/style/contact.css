@@ -21,6 +21,14 @@
   margin: 0;
 }
 
+.contact-form {
+  margin: 0;
+}
+
+.para-form {
+  margin: 0;
+}
+
 #form-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
