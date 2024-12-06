@@ -14,11 +14,10 @@
   object-position: center;
 }
 
-.mainArticle__figcaption {
-  font-style: italic;
-  text-align: center;
-  margin-top: 10px;
-}
+/* .mainArticle__image {
+  height: auto;
+  width: 100%;
+} */
 
 .mainArticle__content {
   width: 40vw;

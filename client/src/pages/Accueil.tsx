@@ -9,14 +9,14 @@ function Accueil() {
         <section className="home-articles">
           <MainArticle />
           <hr className="tiret-accueil" />
-          <div className="scroll-articles">
+          <article className="scroll-articles">
             <Articles />
             <Articles />
             <Articles />
             <Articles />
             <Articles />
             <Articles />
-          </div>
+          </article>
         </section>
       </main>
     </>
