@@ -90,6 +90,7 @@
   .container-societe-main {
     padding: 0rem 1rem 1rem 1rem;
     margin: 5px 30px 20px 30px;
+    height: 100%;
   }
   .container-societe > h1 {
     font-size: 30px;
