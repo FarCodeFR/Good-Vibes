@@ -38,6 +38,7 @@ const router = createBrowserRouter([
       {
         path: "/societe",
         element: <Societe />,
+        loader: () => fetch("http://localhost:3310/news"),
       },
       {
         path: "/environnement",

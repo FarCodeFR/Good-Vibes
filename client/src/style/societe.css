@@ -4,6 +4,15 @@
   padding: 0rem 3rem 3rem 3rem;
 }
 
+/* ? Container Article */
+
+.container-societe-article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 /* ? Container societe */
 .container-societe {
   display: flex;
