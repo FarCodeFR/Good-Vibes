@@ -3,14 +3,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 2em; */
+  gap: 2em;
+}
+
+#header-form {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  align-items: center;
 }
 
 #display-form p {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: var(--primary-font);
   font-weight: 400;
   color: white;
+  margin: 0;
 }
 
 #form-container {

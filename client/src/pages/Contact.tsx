@@ -1,29 +1,42 @@
 import "../style/contact.css";
 
 function Contact() {
+  function handleSubmit(event: { preventDefault: () => void }) {
+    event.preventDefault();
+  }
+
   return (
     <main>
       <section id="display-form">
-        <h1>Contacte-nous</h1>
-        <p>Des bonnes nouvelles à nous partager?</p>
-        <p>Ecris-nous un message</p>
+        <header id="header-form">
+          <h1>Contacte-nous</h1>
+          <p>-</p>
+          <p>Des bonnes nouvelles à nous partager?</p>
+          <p>Ecris-nous un message :&#41;</p>
+        </header>
 
-        <form action="" id="form-container">
+        <form onSubmit={handleSubmit} id="form-container">
           <section id="first-section">
-            <label htmlFor="">Prénom</label>
+            <label htmlFor="name">Prénom</label>
             <input
               type="text"
               placeholder="Ton p'tit nom mon mignon"
+              name="name"
               required
             />
           </section>
           <section id="second-section">
-            <label htmlFor="">E-mail</label>
-            <input type="email" placeholder="mail@mail.com" required />
+            <label htmlFor="email">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="mail@mail.com"
+              required
+            />
           </section>
           <section id="third-section">
-            <label htmlFor="">Votre message</label>
-            <textarea placeholder="Ton message" required />
+            <label htmlFor="message">Votre message</label>
+            <textarea placeholder="Ton message" name="message" required />
           </section>
           <button type="submit" id="submit-form">
             Soumettre
