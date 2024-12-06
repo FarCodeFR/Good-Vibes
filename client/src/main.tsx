@@ -3,6 +3,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App";
+import Apropos from "./components/Apropos";
 import Accueil from "./pages/Accueil";
 import Contact from "./pages/Contact";
 import Environnement from "./pages/Environnement";
@@ -57,11 +58,13 @@ const router = createBrowserRouter([
       {
         path: "/environnement",
         element: <Environnement />,
+        loader: () => fetch("http://localhost:3310/news"),
       },
       {
         path: "/contact",
         element: <Contact />,
       },
+      { path: "/apropos", element: <Apropos /> },
     ],
   },
   // Try adding a new route! For example, "/about" with an About component

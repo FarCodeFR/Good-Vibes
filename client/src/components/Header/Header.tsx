@@ -5,10 +5,18 @@ import "./header.css";
 function Header() {
   return (
     <header className="header-container-link">
-      <img
-        src="/src/assets/images/Logo.png"
-        alt="logo good vibes l'actualité qui fait du bien"
-      />
+      <a
+        href="https://www.youtube.com/watch?v=oVcQTECY_ZQ&ab_channel=RADEGON"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="easter-egg"
+      >
+        <img
+          src="/src/assets/images/Logo.png"
+          alt="logo good vibes l'actualité qui fait du bien"
+        />
+      </a>
+
       <nav className="link-container-page">
         <ul>
           <li>
@@ -22,6 +30,9 @@ function Header() {
           </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Apropos">À propos</NavLink>
           </li>
         </ul>
       </nav>

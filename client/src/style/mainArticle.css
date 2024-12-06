@@ -28,20 +28,20 @@
 
 .mainArticle__hashtag {
   margin-right: 8px;
-  font-size: 22px;
+  font-size: 1rem;
   color: #f8b743;
   font-family: var(--secondary-font);
 }
 
 .mainArticle__title {
-  font-size: 24px;
+  font-size: 1.3rem;
   font-weight: 500;
   font-family: var(--secondary-font);
   margin: 0;
 }
 
 .mainArticle__text {
-  font-size: 14px;
+  font-size: 0.8rem;
   line-height: 1.5;
   align-content: center;
   font-family: var(--third-font);

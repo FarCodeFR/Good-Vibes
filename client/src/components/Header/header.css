@@ -2,14 +2,14 @@
 
 .header-container-link {
   display: flex;
-  gap: 10rem;
+  gap: 5rem;
   padding: 10px 10px 0px 10px;
   align-items: center;
 }
 
 /* ? Image  */
 
-.header-container-link > img {
+.header-container-link a > img {
   width: 400px;
   margin: 1% 0% 0% 5%;
 }
@@ -20,7 +20,7 @@
   display: flex;
   font-family: var(--primary-font);
   font-size: 30px;
-  gap: 5vw;
+  gap: 3vw;
   margin-right: 1rem;
 }
 
@@ -35,4 +35,24 @@
 
 .link-container-page li {
   list-style: none;
+}
+.link-container-page li:hover {
+  text-decoration: underline 2px black;
+}
+
+@media screen and (max-width: 390px) {
+  .header-container-link {
+    flex-direction: column;
+    gap: 0;
+  }
+  .header-container-link > img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .link-container-page > ul {
+    font-size: 12px;
+    margin-right: 0;
+    gap: 3vw;
+    padding: 0;
+  }
 }

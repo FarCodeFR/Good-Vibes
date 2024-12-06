@@ -81,7 +81,7 @@ textarea {
   align-self: center;
   font-family: var(--primary-font);
   border: 4px solid black;
-  color: var(--button-color);
+  color: rgba(238, 146, 173, 1);
   cursor: pointer;
   border-radius: 8px;
   background-color: white;
@@ -137,6 +137,7 @@ textarea {
   background: rgba(0, 0, 0, 0.7);
   filter: blur(5px);
 }
+/* * RESPONSIVE */
 
 @media screen and (max-width: 1024px) {
   #form-container {
@@ -152,5 +153,59 @@ textarea {
 }
 
 @media screen and (max-width: 390px) {
-  /**/
+  .container-central-contact {
+    margin: 0 1rem 1rem 1rem;
+    padding: 0;
+  }
+  #display-form {
+    width: 100%;
+    gap: 1em;
+  }
+  #header-form > h1 {
+    font-size: 40px;
+  }
+  #display-form p:first-of-type {
+    font-size: 40px;
+  }
+  #display-form p {
+    font-size: 16px;
+  }
+
+  #first-section {
+    font-size: 12px;
+  }
+
+  #first-section > label {
+    margin-left: 10px;
+  }
+
+  #first-section > input {
+    width: 23em;
+  }
+  #second-section {
+    font-size: 12px;
+  }
+  #second-section > label {
+    margin-left: 10px;
+  }
+  #second-section > input {
+    width: 23em;
+  }
+  #third-section {
+    font-size: 12px;
+  }
+  #third-section > label {
+    margin-left: 10px;
+  }
+  #third-section > textarea {
+    width: 23em;
+  }
+  #submit-form {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 20px;
+    color: rgba(238, 146, 173, 1);
+  }
 }
