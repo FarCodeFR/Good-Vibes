@@ -23,8 +23,11 @@ function Contact() {
           </section>
           <section id="third-section">
             <label htmlFor="">Votre message</label>
-            <textarea placeholder="Ton message" rows={5} cols={40} required />
+            <textarea placeholder="Ton message" required />
           </section>
+          <button type="submit" id="submit-form">
+            Soumettre
+          </button>
         </form>
       </section>
     </main>

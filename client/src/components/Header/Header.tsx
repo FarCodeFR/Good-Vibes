@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../../style/globals.css";
 import "./header.css";
 
@@ -11,18 +11,18 @@ function Header() {
       />
       <nav className="link-container-page">
         <ul>
-          <Link to="/accueil">
-            <li>Accueil</li>
-          </Link>
-          <Link to="/societe">
-            <li>Société</li>
-          </Link>
-          <Link to="/environnement">
-            <li>Environnement</li>
-          </Link>
-          <Link to="/contact">
-            <li>Contact</li>
-          </Link>
+          <li>
+            <NavLink to="/accueil">Accueil</NavLink>
+          </li>
+          <li>
+            <NavLink to="/societe">Société</NavLink>
+          </li>
+          <li>
+            <NavLink to="/environnement">Environnement</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
         </ul>
       </nav>
     </header>
