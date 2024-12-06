@@ -19,7 +19,7 @@ function Contact() {
   }
 
   return (
-    <main>
+    <main className="container-central-contact">
       <section id="display-form">
         <header id="header-form">
           <h1>Contacte-nous</h1>
