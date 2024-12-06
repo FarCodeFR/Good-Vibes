@@ -53,3 +53,9 @@
     border: 0px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .title-propos {
+    font-size: 35px;
+  }
+}
