@@ -20,6 +20,7 @@ function Accueil() {
         <section className="home-articles">
           <MainArticle />
           <hr className="tiret-accueil" />
+<<<<<<< HEAD
           <div className="scroll-articles">
             {data?.map((element) => {
               return (
@@ -33,6 +34,16 @@ function Accueil() {
               );
             })}
           </div>
+=======
+          <article className="scroll-articles">
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+            <Articles />
+          </article>
+>>>>>>> 9162a2331c825359071265f251a57dc97405da64
         </section>
       </main>
     </>
