@@ -23,6 +23,9 @@ function Header() {
           <li>
             <NavLink to="/contact">Contact</NavLink>
           </li>
+          <li>
+            <NavLink to="/Apropos">À propos</NavLink>
+          </li>
         </ul>
       </nav>
     </header>
