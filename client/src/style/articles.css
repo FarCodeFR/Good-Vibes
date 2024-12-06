@@ -4,33 +4,42 @@
   width: 40vw;
   margin-left: 8px;
   margin-bottom: 8px;
-  height: 15vh;
+  padding: 5px;
 }
 
 .articles-articles {
-  height: 10vh;
+  height: 24vh;
+  margin-bottom: 0px;
 }
 
 .articles-figure > img {
-  width: 7vw;
+  width: 10vw;
+  object-fit: cover;
+  height: 15vh;
 }
 
 .articles-hashtag {
   font-family: var(--secondary-font);
   font-weight: 300;
   color: var(--primary-color);
+  margin: 2px;
 }
 .articles-title {
   font-family: var(--secondary-font);
   font-weight: 300;
+  margin: 2px;
 }
 .articles-content {
   font-family: var(--third-font);
   text-align: justify;
+  font-size: 11px;
+  padding: 4px;
+  padding-right: 8px;
 }
 .articles-link {
   color: var(--secondary-color);
   font-weight: 400;
   font-family: var(--secondary-font);
   text-align: end;
+  margin: 0;
 }
