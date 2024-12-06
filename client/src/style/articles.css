@@ -8,14 +8,22 @@
 }
 
 .articles-articles {
-  height: 24vh;
   margin-bottom: 0px;
+  width: 100%;
+  padding: 16px;
+}
+
+.articles-figure {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .articles-figure > img {
-  width: 10vw;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  height: 15vh;
+  object-position: center;
 }
 
 .articles-hashtag {
