@@ -4,9 +4,9 @@ function Contact() {
   return (
     <main>
       <section id="display-form">
-        <h1>Contacte-nous</h1>
-        <p>Des bonnes nouvelles à nous partager?</p>
-        <p>Ecris-nous un message</p>
+        <h1 className="contact-form">Contacte-nous</h1>
+        <p className="para-form">Des bonnes nouvelles à nous partager?</p>
+        <p className="para-form">Ecris-nous un message</p>
 
         <form action="" id="form-container">
           <section id="first-section">
