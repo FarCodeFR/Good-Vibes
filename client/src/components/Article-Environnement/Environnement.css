@@ -90,6 +90,7 @@
   .container-environnement-main {
     padding: 0rem 1rem 1rem 1rem;
     margin: 5px 30px 20px 30px;
+    height: 100%;
   }
   .container-environnement > h1 {
     font-size: 34px;
