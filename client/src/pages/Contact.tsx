@@ -1,19 +1,27 @@
-import type { FormEvent } from "react";
+import { type FormEvent, useRef, useState } from "react";
 import "../style/contact.css";
 
 function Contact() {
+  const [userData, setUserData] = useState<userDataI>();
+  const dialogRef = useRef<HTMLDialogElement>(null);
+
+  function handleClose() {
+    dialogRef.current?.close();
+  }
+
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    dialogRef.current?.showModal();
     const formData = new FormData(event.currentTarget);
-    const name = formData.get("name");
-    const email = formData.get("email");
-    const message = formData.get("message");
-
+    const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
+    const message = formData.get("message") as string;
     const data = {
       name,
       email,
       message,
     };
+    setUserData(data);
 
     console.info(data);
   }
@@ -22,7 +30,7 @@ function Contact() {
     <main className="container-central-contact">
       <section id="display-form">
         <header id="header-form">
-          <h1>Contacte-nous</h1>
+          <h1 id="title-contact">Contacte-nous</h1>
           <p>-</p>
           <p>Des bonnes nouvelles à nous partager?</p>
           <p>Ecris-nous un message :&#41;</p>
@@ -55,6 +63,20 @@ function Contact() {
             Soumettre
           </button>
         </form>
+        <dialog ref={dialogRef} id="dial-box">
+          <section id="dialog-content">
+            <section id="data">
+              <p>{`Bonjour ${userData?.name} et merci pour ton message!`}</p>
+              <p>
+                {`Si ta news est validée, tu recevra une confirmation sur
+            ${userData?.email}`}
+              </p>
+            </section>
+            <button id="close-modal-button" type="button" onClick={handleClose}>
+              X
+            </button>
+          </section>
+        </dialog>
       </section>
     </main>
   );
