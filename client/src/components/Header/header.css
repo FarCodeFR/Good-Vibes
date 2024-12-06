@@ -24,12 +24,15 @@
   margin-right: 1rem;
 }
 
-.link-container-page > ul > a {
-  list-style: none;
+.link-container-page a {
   text-decoration: none;
   color: black;
   margin-top: 1rem;
 }
 .link-container-page > ul > a:hover {
   color: #ec8dba;
+}
+
+.link-container-page li {
+  list-style: none;
 }

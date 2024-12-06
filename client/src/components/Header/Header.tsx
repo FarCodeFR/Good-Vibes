@@ -11,18 +11,18 @@ function Header() {
       />
       <nav className="link-container-page">
         <ul>
-          <NavLink to="/accueil">
-            <li>Accueil</li>
-          </NavLink>
-          <NavLink to="/societe">
-            <li>Société</li>
-          </NavLink>
-          <NavLink to="/environnement">
-            <li>Environnement</li>
-          </NavLink>
-          <NavLink to="/contact">
-            <li>Contact</li>
-          </NavLink>
+          <li>
+            <NavLink to="/accueil">Accueil</NavLink>
+          </li>
+          <li>
+            <NavLink to="/societe">Société</NavLink>
+          </li>
+          <li>
+            <NavLink to="/environnement">Environnement</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
         </ul>
       </nav>
     </header>
