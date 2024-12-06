@@ -43,6 +43,13 @@
 .articles-figure-societe {
   object-fit: contain;
   margin-right: 10px;
+  width: 100%;
+}
+
+/* ? image */
+
+.image-societe {
+  width: 15vw;
 }
 
 /* ? Articles */

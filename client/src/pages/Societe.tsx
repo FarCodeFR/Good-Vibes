@@ -1,6 +1,5 @@
 import { useLoaderData } from "react-router-dom";
 import ArticleSociete from "../components/Article-societe/ArticleSociete";
-import "../style/societe.css";
 
 interface news {
   id: number;
