@@ -30,9 +30,14 @@ export default function Apropos() {
             nouvelles.
           </p>
           <img
-            alt="logo post-it"
+            alt="logo-post-it"
             src="/src/assets/images/logo-postit.png"
             className="logo-propos"
+          />
+          <img
+            alt="troll"
+            src="https://media.tenor.com/x8v1oNUOmg4AAAAM/rickroll-roll.gif"
+            className="troll"
           />
         </div>
       </main>
