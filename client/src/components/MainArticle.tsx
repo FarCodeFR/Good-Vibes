@@ -3,13 +3,11 @@ import "../style/mainArticle.css";
 function MainArticle() {
   return (
     <article className="mainArticle">
-      <figure className="mainArticle__figure">
-        <img
-          src="/champion-mouette.jpg"
-          alt="Un champion qui fait le cri de la mouette"
-          className="mainArticle__image"
-        />
-      </figure>
+      <img
+        src="https://lvdneng.rosselcdn.net/sites/default/files/dpistyles_v2/vdn_864w/2021/02/15/node_937362/50484262/public/2021/02/15/B9726150929Z.1_20210215181714_000%2BGBUHK10DG.1-0.jpg?itok=r6Jd65Y-1613409981"
+        alt="Un champion qui fait le cri de la mouette"
+        className="mainArticle__image"
+      />
 
       <div className="mainArticle__content">
         <div className="mainArticle__hashtags">
