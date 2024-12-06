@@ -12,7 +12,7 @@ function ArticleSociete({ keyword, title, image, article }: newsI) {
     <>
       <section className="articles-societe">
         <figure className="articles-figure-societe">
-          <img src={image} alt="" />
+          <img src={image} alt="" className="image-societe" />
         </figure>
         <article>
           <h2 className="articles-hashtag-societe">{keyword}</h2>
