@@ -9,7 +9,7 @@
 
 /* ? Image  */
 
-.header-container-link > img {
+.header-container-link a > img {
   width: 400px;
   margin: 1% 0% 0% 5%;
 }
@@ -35,6 +35,9 @@
 
 .link-container-page li {
   list-style: none;
+}
+.link-container-page li:hover {
+  text-decoration: underline 2px black;
 }
 
 @media screen and (max-width: 390px) {
