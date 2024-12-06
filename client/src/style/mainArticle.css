@@ -3,8 +3,6 @@
   background-color: #ffff;
   flex-direction: column;
   padding: 15px;
-  /* max-height: 739px;
-  max-width: 781px; */
 }
 
 .mainArticle__figure {
@@ -12,14 +10,14 @@
   justify-content: center;
 }
 
-.mainArticle__figcaption {
-  font-style: italic;
-  text-align: center;
-  margin-top: 10px;
-}
+/* .mainArticle__image {
+  height: auto;
+  width: 100%;
+} */
 
 .mainArticle__content {
   max-width: 600px;
+  max-height: auto;
 }
 
 .mainArticle__hashtags {
